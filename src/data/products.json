@@ -1,0 +1,28 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "bolo 1",
+            "section": "confeitaria",
+            "category": "bolos",
+            "price": 120,
+            "description": "description here"
+        },
+        {
+            "id": 2,
+            "name": "bolo 2",
+            "section": "confeitaria",
+            "category": "bolos",
+            "price": 120,
+            "description": "description here"
+        },
+        {
+            "id": 3,
+            "name": "bolo 3",
+            "section": "confeitaria",
+            "category": "bolos",
+            "price": 120,
+            "description": "description here"
+        }
+    ]
+}

@@ -1,7 +1,11 @@
-export function ProductCard() {
+/* eslint-disable react/prop-types */
+
+export function ProductCard({ id, name, price, description }) {
+
     return (
         <>
-            Product Card
+            {name}
+            {price}
         </>
     )
 }
