@@ -6,7 +6,8 @@
             "section": "confeitaria",
             "category": "bolos",
             "price": 120,
-            "description": "description here"
+            "description": "description here",
+            "imgUrl": "/images/bolo-1.png"
         },
         {
             "id": 2,
@@ -14,7 +15,8 @@
             "section": "confeitaria",
             "category": "bolos",
             "price": 120,
-            "description": "description here"
+            "description": "description here",
+            "imgUrl": "/images/bolo-2.png"
         },
         {
             "id": 3,
@@ -22,7 +24,44 @@
             "section": "confeitaria",
             "category": "bolos",
             "price": 120,
-            "description": "description here"
+            "description": "description here",
+            "imgUrl": "/images/bolo-1.png"
+        },
+        {
+            "id": 2,
+            "name": "bolo 2",
+            "section": "confeitaria",
+            "category": "bolos",
+            "price": 120,
+            "description": "description here",
+            "imgUrl": "/images/bolo-2.png"
+        },
+        {
+            "id": 3,
+            "name": "bolo 3",
+            "section": "confeitaria",
+            "category": "bolos",
+            "price": 120,
+            "description": "description here",
+            "imgUrl": "/images/bolo-1.png"
+        },
+        {
+            "id": 2,
+            "name": "bolo 2",
+            "section": "confeitaria",
+            "category": "bolos",
+            "price": 120,
+            "description": "description here",
+            "imgUrl": "/images/bolo-2.png"
+        },
+        {
+            "id": 3,
+            "name": "Marmita",
+            "section": "congelados",
+            "category": "bolos",
+            "price": 120,
+            "description": "description here",
+            "imgUrl": "/images/bolo-1.png"
         }
     ]
 }

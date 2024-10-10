@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import database from "../../data/products.json"
 import { ProductCard } from "../../components/ProductCard"
+import { Container, Row } from "react-bootstrap"
 
 export function ConfeitariaPage() {
 
@@ -13,16 +14,26 @@ export function ConfeitariaPage() {
 
     return (
         <>
-            Confeitaria
-            {
-                products.map(item => {
-                    return (
-                        <>
-                            <ProductCard key={item.id} id={item.id} name={item.name} description={item.description} price={item.price} />
-                        </>
-                    )
+            <h1>Confeitaria</h1>
+            <Container>
+                <Row>
+                    {
+                        products.map(item => {
+                            return (
+                                <>
+                                    <ProductCard
+                                        key={item.id}
+                                        id={item.id}
+                                        name={item.name}
+                                        description={item.description}
+                                        price={item.price}
+                                        imgUrl={item.imgUrl} />
+                                </>
+                            )
 
-                })}
+                        })}
+                </Row>
+            </Container>
         </>
     )
 }
