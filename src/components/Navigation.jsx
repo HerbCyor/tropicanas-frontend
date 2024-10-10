@@ -1,14 +1,15 @@
-import { Button, Container, Nav, Navbar as NavbarBs } from "react-bootstrap"
+import { Button, Container, Nav, Navbar } from "react-bootstrap"
+import { NavLink } from "react-router-dom"
 
-export function Navbar() {
+export function Navigation() {
     return (
         <>
-            <NavbarBs>
+            <Navbar>
                 <Container>
                     <Nav className="me-auto">
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/confeitaria">Confeitaria</Nav.Link>
-                        <Nav.Link href="/congelados">Congelados</Nav.Link>
+                        <Nav.Link to="/" as={NavLink} > Home </Nav.Link>
+                        <Nav.Link to="/confeitaria" as={NavLink}> Confeitaria </Nav.Link>
+                        <Nav.Link to="/congelados" as={NavLink}>Congelados</Nav.Link>
                     </Nav>
                     <Button style={{ width: "3rem", height: "3rem" }} variant="outline-primary">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-cart3" viewBox="0 0 16 16">
@@ -17,7 +18,7 @@ export function Navbar() {
                     </Button>
                 </Container>
 
-            </NavbarBs>
+            </Navbar>
         </>
     )
 }
